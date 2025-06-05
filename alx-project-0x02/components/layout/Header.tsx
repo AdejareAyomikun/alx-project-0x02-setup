@@ -1,6 +1,15 @@
+import Link from "next/link";
+
 const Header = () =>{
     return(
-        <div></div>
+        <header>
+            <Link href="/home">
+                Home
+            </Link>
+            <Link href="/about">
+                About
+            </Link>
+        </header>
     )
 }
 
